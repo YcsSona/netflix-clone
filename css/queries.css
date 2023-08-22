@@ -1,0 +1,86 @@
+/* ******************************** */
+/* BELOW 1344px (Smaller desktops) */
+/* ******************************** */
+
+@media (max-width: 84em) {
+  .header-container h1 {
+    font-size: 4.4rem;
+  }
+}
+
+/* ******************************** */
+/* BELOW 1200px (Landspace Tablet) */
+/* ******************************** */
+
+@media (max-width: 75em) {
+  /* 9 / 16 = .5626 * 100 = 56.25 */
+  html {
+    font-size: 56.25%;
+  }
+
+  .header-container {
+    width: 90%;
+  }
+
+  .grid {
+    gap: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+}
+
+/* ******************************** */
+/* BELOW 944px (Tablets) */
+/* ******************************** */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .grid-2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-text-box {
+    text-align: center;
+  }
+
+  .feature-img-box {
+    justify-self: center;
+  }
+
+  .grid-row {
+    grid-row: 1;
+  }
+}
+
+/* ******************************** */
+/* BELOW 704px (Smaller Tablets) */
+/* ******************************** */
+@media (max-width: 44em) {
+  .form-control {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .input-control {
+    flex-basis: 0;
+  }
+
+  .form-control .btn {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+/* ******************************** */
+/* BELOW 544px (Phone) */
+/* ******************************** */
+
+@media (max-width: 34em) {
+  .grid-3--cols {
+    grid-template-columns: 1fr;
+  }
+}
