@@ -83,4 +83,8 @@
   .grid-3--cols {
     grid-template-columns: 1fr;
   }
+
+  .faq span {
+    font-size: 2rem;
+  }
 }
